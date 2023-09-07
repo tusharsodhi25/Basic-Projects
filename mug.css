@@ -1,0 +1,94 @@
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height:100vh;
+    width:100%;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card{
+    height: 300px;
+    width: 500px;
+    background-color: rgb(247, 244, 244);
+    border-radius: 12px;
+    display:flex;
+    opacity: 0.5;
+   
+}
+
+
+.card img{
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    height:100%;
+}
+
+.card  h6{
+    color: rgba(87, 88, 88, 0.416);
+    font-family: 'Raleway', sans-serif;
+}
+
+.card:hover{
+    opacity: 1;
+    transform: scale(1.1);
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+
+}
+
+.text{
+    margin:10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.text h3{
+    font-family: 'Lumanosimo', cursive;
+    font-size: 1.5rem;
+
+}
+
+.text p{
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.9rem;
+    color: rgba(3, 3, 3, 0.532);
+    
+
+}
+
+.text h2{
+    font-family: 'Playfair Display', serif;
+    color: green;
+    font-size: 2rem;
+
+}
+
+#button{
+    border-radius: 7px;
+    height:30px;
+    background-color: green;
+    color: white;
+    border:2px solid green;
+    display:flex;
+    justify-content: center;
+    gap:10px;
+    align-items: center;
+    
+}
+
+#button img{
+    height:20px;
+    margin:3px;
+}
+
